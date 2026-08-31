@@ -1,0 +1,11 @@
+plugins {
+    id 'net.neoforged.moddev' version "${moddevgradle_version}"
+}
+base { archivesName = "omenwake-neoforge" }
+sourceSets.main.java.srcDir '../common/src/main/java'
+sourceSets.main.resources.srcDir '../common/src/main/resources'
+neoForge {
+    version = neoforge_version
+    runs { client { client() }; server { server() } }
+    mods { omenwake { sourceSet sourceSets.main } }
+}

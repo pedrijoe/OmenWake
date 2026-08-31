@@ -1,0 +1,37 @@
+{
+  "trigger": "block_broken",
+  "subject": "minecraft:gold_ore",
+  "base_probability": 0.03,
+  "player_cooldown_ticks": 6000,
+  "duration_ticks": 1500,
+  "mobs": [
+    {
+      "entity_type": "minecraft:zombie",
+      "weight": 8,
+      "equipment": {
+        "chest": {
+          "item": "minecraft:golden_chestplate",
+          "drop_chance": 0.0
+        }
+      }
+    },
+    {
+      "entity_type": "minecraft:skeleton",
+      "weight": 4,
+      "equipment": {
+        "chest": {
+          "item": "minecraft:golden_chestplate",
+          "drop_chance": 0.0
+        }
+      }
+    }
+  ],
+  "initial_mob_count": 5,
+  "mob_count_increase": 1,
+  "required_kill_ratio": 0.9,
+  "objective": "player_kill_count",
+  "catalog_title_key": "encounter.omenwake.gold_defenders.title",
+  "catalog_description_key": "encounter.omenwake.gold_defenders.description",
+  "discovery_points": 10,
+  "completion_points": 15
+}

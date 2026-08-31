@@ -1,0 +1,25 @@
+{
+  "trigger": "item_picked_up",
+  "subject": "minecraft:diamond",
+  "base_probability": 0.03,
+  "player_cooldown_ticks": 6000,
+  "duration_ticks": 2200,
+  "mobs": [
+    {
+      "entity_type": "minecraft:pillager",
+      "weight": 7
+    },
+    {
+      "entity_type": "minecraft:vindicator",
+      "weight": 3
+    }
+  ],
+  "initial_mob_count": 4,
+  "mob_count_increase": 1,
+  "required_kill_ratio": 0.8,
+  "objective": "player_kill_count",
+  "catalog_title_key": "encounter.omenwake.the_ore_thieves.title",
+  "catalog_description_key": "encounter.omenwake.the_ore_thieves.description",
+  "discovery_points": 10,
+  "completion_points": 20
+}

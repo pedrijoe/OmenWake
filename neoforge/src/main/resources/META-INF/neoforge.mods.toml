@@ -1,0 +1,9 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+[[mods]]
+modId="omenwake"
+version="0.1.0"
+displayName="Omenwake"
+authors="Pedrijoe"
+description="Hidden, configurable encounters triggered by player actions."

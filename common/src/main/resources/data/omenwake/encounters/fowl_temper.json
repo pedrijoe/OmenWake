@@ -1,0 +1,21 @@
+{
+  "trigger": "item_crafted",
+  "subject": "minecraft:cake",
+  "base_probability": 0.04,
+  "player_cooldown_ticks": 6000,
+  "duration_ticks": 1500,
+  "mobs": [
+    {
+      "entity_type": "minecraft:chicken",
+      "weight": 14
+    }
+  ],
+  "initial_mob_count": 4,
+  "mob_count_increase": 1,
+  "required_kill_ratio": 0.8,
+  "objective": "player_kill_count",
+  "catalog_title_key": "encounter.omenwake.fowl_temper.title",
+  "catalog_description_key": "encounter.omenwake.fowl_temper.description",
+  "discovery_points": 10,
+  "completion_points": 15
+}

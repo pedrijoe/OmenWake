@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.pedrijoe.omenwake.fabric.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "FurnaceResultSlotMixin",
+    "FishingHookMixin",
+    "ItemEntityMixin",
+    "ResultSlotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

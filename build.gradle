@@ -1,0 +1,14 @@
+allprojects {
+    group = 'com.pedrijoe.omenwake'
+    version = '0.2.0'
+}
+subprojects {
+    plugins.withId('java') {
+        java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+        options.release = 25
+    }
+}

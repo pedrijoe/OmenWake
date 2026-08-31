@@ -1,0 +1,21 @@
+{
+  "trigger": "block_broken",
+  "subject": "minecraft:jungle_log",
+  "base_probability": 0.03,
+  "player_cooldown_ticks": 6000,
+  "duration_ticks": 1500,
+  "mobs": [
+    {
+      "entity_type": "minecraft:parrot",
+      "weight": 12
+    }
+  ],
+  "initial_mob_count": 3,
+  "mob_count_increase": 1,
+  "required_kill_ratio": 0.9,
+  "objective": "player_kill_count",
+  "catalog_title_key": "encounter.omenwake.jungle_squall.title",
+  "catalog_description_key": "encounter.omenwake.jungle_squall.description",
+  "discovery_points": 10,
+  "completion_points": 15
+}

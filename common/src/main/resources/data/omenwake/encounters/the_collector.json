@@ -1,0 +1,31 @@
+{
+  "trigger": "container_opened",
+  "subject": "minecraft:chest",
+  "base_probability": 0.04,
+  "player_cooldown_ticks": 6000,
+  "duration_ticks": 2400,
+  "mobs": [
+    {
+      "entity_type": "minecraft:skeleton",
+      "weight": 1,
+      "equipment": {
+        "mainhand": {
+          "item": "minecraft:bow",
+          "drop_chance": 0.0
+        },
+        "head": {
+          "item": "minecraft:golden_helmet",
+          "drop_chance": 0.0
+        }
+      }
+    }
+  ],
+  "initial_mob_count": 1,
+  "mob_count_increase": 0,
+  "required_kill_ratio": 1.0,
+  "objective": "player_kill_count",
+  "catalog_title_key": "encounter.omenwake.the_collector.title",
+  "catalog_description_key": "encounter.omenwake.the_collector.description",
+  "discovery_points": 10,
+  "completion_points": 20
+}

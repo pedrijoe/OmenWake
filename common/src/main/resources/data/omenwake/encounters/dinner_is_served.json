@@ -1,0 +1,25 @@
+{
+  "trigger": "furnace_output_taken",
+  "subject": "minecraft:cooked_beef",
+  "base_probability": 0.05,
+  "player_cooldown_ticks": 6000,
+  "duration_ticks": 1500,
+  "mobs": [
+    {
+      "entity_type": "minecraft:zombie",
+      "weight": 10
+    },
+    {
+      "entity_type": "minecraft:husk",
+      "weight": 8
+    }
+  ],
+  "initial_mob_count": 4,
+  "mob_count_increase": 1,
+  "required_kill_ratio": 0.9,
+  "objective": "player_kill_count",
+  "catalog_title_key": "encounter.omenwake.dinner_is_served.title",
+  "catalog_description_key": "encounter.omenwake.dinner_is_served.description",
+  "discovery_points": 10,
+  "completion_points": 20
+}
